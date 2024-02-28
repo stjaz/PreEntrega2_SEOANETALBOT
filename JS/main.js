@@ -56,7 +56,7 @@ if (pagoMetodos.includes(pagoElegido)) {
     procesoPago(pagoElegido);
 } else {
     alert('Medio de pago no válido.');
-    seleccionMetodoPago(); // Vuelve a solicitar la elección si es inválida-> esto es un comentario de chatgpt, ni vi como hacerlo xd
+    seleccionMetodoPago();
 }
 }
 
